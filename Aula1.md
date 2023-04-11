@@ -190,7 +190,7 @@ bool cond3 = a == b; // false
 bool cond4 = c >= 'a'; //true
 //d = 0.100000001490116119
 //e-f = 0.099999964237213135
-bool cond5 = d == e- f; // false
+bool cond5 = d == e - f; // false
 ```
 
 ## Operadores lógicos
