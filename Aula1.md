@@ -16,7 +16,7 @@ int main(){
 ```
 As principais bibliotecas da linguagem C pode ser encontrada neste link:
 
-[https://cplusplus.com/reference/clibrary/](https://cplusplus.com/reference/clibrary/)
+[https://cplusplus.com/reference/clibrary/]([https://en.cppreference.com/w/c/header])
 
 Na biblioteca stdio.h, temos as funções printf e scanf para realizar a entrada e saída formatada.
 
