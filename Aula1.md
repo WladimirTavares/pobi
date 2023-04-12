@@ -221,7 +221,86 @@ Por exemplo, queremos testar se um número a está no intervalo entre 10 e 20 e 
 bool cond = a >= 10 && a <= 20 && a % 2 == 0
 ``` 
 
+**Exercícios:**
 
+1. Considere o seguinte programa: 
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    
+    
+    int produto;
+
+    produto = 1;
+    produto = produto * 2;
+    produto = produto * 2;
+    produto = produto * 2;
+    
+    cout << produto << endl;
+
+    return 0;
+}
+```
+
+Qual é o valor impresso pelo programa?
+
+
+2. Algumas linguagens lógicas oferecem o operador lógico ou exclusivo (xor). Na linguagem C, o operador lógico xor é denotado por ^^. O operador xor possui a seguinte tabela lógica:
+
+
+| p | q | p ^^ q|
+|---|---|-------|
+| 0 | 0 | 0     |
+| 0 | 1 | 1     |
+| 1 | 0 | 1     |
+| 1 | 1 | 1     |
+
+Considere o seguinte programa:
+```cpp
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    
+    
+    cin >> a;
+    cin >> b;
+    
+    cout << (a > 5) ^^ (b < 4) << endl;
+    
+    return 0;
+}
+```
+
+Complete a seguinte tabela:
+
+
+| a | b | valor impresso|
+|---|---|-------|
+| 8 | 2 |      |
+| 8 | 5 |      |
+| 4 | 1 |      |
+| 3 | 6 |      |
+
+3. Implemente o operador xor utilizando apenas os operadores e (&&), ou (||) e negação (!).
+
+4. Faça um programa que recebe quatro inteiros $x1, y1, x2, y2$ representado as coordenadas de dois pontos $P1=(x1,y1)$ e $P2=(x2,y2)$ e devolva a distâncias entre os dois pontos dada pela fórmula
+
+$$dist = \sqrt{(x2-x1)^2 + (y2-y1)^2}$$
+
+5. Faça um programa que lê a temperatura em Fahrenheit e retorne a temperatura em graus
+Centı́grados.
+
+$$C = \frac{5(F-32)}{9}$$
 
 
 
