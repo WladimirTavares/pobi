@@ -16,7 +16,7 @@ int main(){
 ```
 As principais bibliotecas da linguagem C pode ser encontrada neste link:
 
-[https://cplusplus.com/reference/clibrary/](https://cplusplus.com/reference/clibrary/)
+[https://en.cppreference.com/w/c/header](https://en.cppreference.com/w/c/header)
 
 Na biblioteca stdio.h, temos as funções printf e scanf para realizar a entrada e saída formatada.
 
@@ -190,7 +190,7 @@ bool cond3 = a == b; // false
 bool cond4 = c >= 'a'; //true
 //d = 0.100000001490116119
 //e-f = 0.099999964237213135
-bool cond5 = d == e- f; // false
+bool cond5 = d == e - f; // false
 ```
 
 ## Operadores lógicos
